@@ -1,7 +1,7 @@
 const path = require('path')
 const HTMLWepackPlugin = require('html-webpack-plugin')
 const {CleanWebpackPlugin} = require('clean-webpack-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
 	context: path.resolve(__dirname,'src'),
@@ -19,7 +19,8 @@ module.exports = {
 		}
 	},
 	devServer: {
-		port: 8080
+		https: false,
+		port: 9000
 	},
 	plugins: [
 		new HTMLWepackPlugin({

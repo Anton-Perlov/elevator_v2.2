@@ -12,7 +12,7 @@ import userMove from './fn-user-move'
 import './main.css'
 
 const params = {
-    FLOORS: 12,
+    FLOORS: 14,
     USERS_COUNT: 5,
     FLOOR_HEIGHT: 50,
     MOOVE_SPEED: 5,
@@ -22,13 +22,12 @@ const params = {
 
 $(document).ready(function(){
     
-
     reInit();
     
     changeSettings(params);
 
     $('[data-toggle="tooltip"]').tooltip();
-    
+
 });
     
 export function reInit(){
