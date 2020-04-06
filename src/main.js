@@ -7,8 +7,6 @@ import createUsers from './fn-create-users'
 import changeSettings from './fn-change-settings'
 import userMove from './fn-user-move'
 
-
-
 import './main.css'
 
 const params = {
